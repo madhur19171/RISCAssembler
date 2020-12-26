@@ -1,0 +1,28 @@
+mov, r15, 0
+ld, r1, 0[r15]
+mov, r2, 2
+mod, r3, r1, r2
+cmp, r3, 0
+beq, 9
+add, r2, r2, 1
+cmp, r1, r2
+bgt, -5
+mov, r5, 1
+st, r5, 10[r15]
+b, 9
+add, r4, r4, 1
+add, r4, r4, 1
+add, r4, r4, 1
+mov, r5, 0
+st, r5, 10[r15]
+add, r4, r4, 1
+add, r4, r4, 1
+add, r4, r4, 1
+add, r15, r15, 1
+cmp, r15, 5
+beq, 5
+b, -22
+add, r4, r4, 1
+add, r4, r4, 1
+add, r4, r4, 1
+read, r15, r5

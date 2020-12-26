@@ -1,0 +1,12 @@
+mov, r1, 29
+mov, r2, 35
+mov, r3, 46
+mov, r4, r4, 1
+bl, 3
+add, r4, r4, 1
+b, 5
+add, r1, r1, r2
+sub, r2, r1, r2
+sub, r1, r1, r2
+bxlr
+read, r1, r2

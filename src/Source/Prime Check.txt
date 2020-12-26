@@ -1,0 +1,18 @@
+mov, r1, 127
+mov, r2, 2
+mod, r3, r1, r2
+cmp, r3, 0
+beq, 9
+add, r2, r2, 1
+cmp, r1, r2
+bgt, -5
+mov, r5, 1
+add, r4, r4, 1
+add, r4, r4, 1
+add, r4, r4, 1
+read, r5, r1
+mov, r5, 0
+add, r4, r4, 1
+add, r4, r4, 1
+add, r4, r4, 1
+read, r5, r1
