@@ -1,7 +1,7 @@
 # RISCAssembler
  Assmebler for SimpleRISC ISA
 How to use:
-1. Run the main file(Assembler.java)
+1. Run the main file(Assemble.java)
 2. When prompted for file name, enter the name of the source file. The file must have the extension of .txt and the assembly code must be written in the correct format.
 3. The source file must be present in the folder named Source.
 4. Hit enter.
